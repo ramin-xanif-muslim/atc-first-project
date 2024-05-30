@@ -6,21 +6,35 @@
         <title>ATC Lesson 1</title>
     </head>
     <body>
-        <header>
-            <h1>Home Page</h1>
-            <h2>Learning HTML</h2>
-        </header>
-
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </nav>
 
+        <header>
+            <h1>FRONT END DEVELOPER</h1>
+        </header>
+        <h2>Saytımı ziyarət etdiyiniz üçün təşəkkür edirəm.</h2>
+
+        <p>
+            Mənim haqqımda bilmək istəyirsinizsə
+            <a href="about.html"
+                ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 1024 1024"
+                >
+                    <path
+                        fill="currentColor"
+                        d="M452.864 149.312a29.12 29.12 0 0 1 41.728.064L826.24 489.664a32 32 0 0 1 0 44.672L494.592 874.624a29.12 29.12 0 0 1-41.728 0a30.59 30.59 0 0 1 0-42.752L764.736 512L452.864 192a30.59 30.59 0 0 1 0-42.688m-256 0a29.12 29.12 0 0 1 41.728.064L570.24 489.664a32 32 0 0 1 0 44.672L238.592 874.624a29.12 29.12 0 0 1-41.728 0a30.59 30.59 0 0 1 0-42.752L508.736 512L196.864 192a30.59 30.59 0 0 1 0-42.688"
+                    /></svg
+            ></a>
+        </p>
+
         <main>
-            <h3>Video</h3>
+            <h3>Necə peşəkar developer olmaq olar</h3>
             <iframe
                 width="427"
                 height="240"
@@ -32,114 +46,13 @@
                 allowfullscreen
             ></iframe>
 
-            <h3>Form</h3>
-            <form action="http://google.com">
-                <label for="name">Name:</label>
-                <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Enter your name"
-                    required
-                />
-                <br />
-                <label for="email">Email:</label>
-                <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Enter your email"
-                    required
-                />
-                <br />
-                <label for="password">Password:</label>
-                <input
-                    type="password"
-                    name="password"
-                    id="password"
-                    placeholder="Enter your password"
-                    required
-                />
-                <br />
-                <label for="message">Message:</label>
-                <textarea name="message" cols="30" rows="10" id=""></textarea>
-                <br />
-                <label for="gender">Gender:</label>
-                <input type="radio" name="gender" id="male" />
-                <label for="male">Male</label>
-                <input type="radio" name="gender" id="female" />
-                <label for="female">Female</label>
-                <br />
-                <label for="hobby_music">Music</label>
-                <input
-                    type="checkbox"
-                    name="hobby[]"
-                    id="hobby_music"
-                    value="Music"
-                />
-                <label for="hobby_sports">Sports</label>
-                <input
-                    type="checkbox"
-                    name="hobby[]"
-                    id="hobby_sports"
-                    value="Sports"
-                />
-                <label for="hobby_traveling">Traveling</label>
-                <input
-                    type="checkbox"
-                    name="hobby[]"
-                    id="hobby_traveling"
-                    value="Traveling"
-                />
-                <br />
-
-                <label for="images">Choose a images:</label>
-                <input type="file" name="images" id="" />
-                <br />
-
-                <label for="date">Date:</label>
-                <input type="date" name="date" id="" />
-                <br />
-
-                <label for="time">Time:</label>
-                <input type="time" name="time" id="" />
-                <br />
-
-                <label for="color">Color:</label>
-                <input type="color" name="color" id="color" />
-                <br />
-
-                <label for="range">Range:</label>
-                <input type="range" name="range" id="range" />
-                <br />
-
-                <label for="number">Number:</label>
-                <input type="number" name="number" id="number" />
-                <br />
-
-                <label for="search">Search:</label>
-                <input type="search" name="search" id="search" />
-                <br />
-                <label for="cars">Choose a car:</label>
-                <select name="cars" id="">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </select>
-                <br />
-                <button type="submit">Register</button>
-            </form>
-
-            <br />
-
-            <h3>Table</h3>
+            <h3>Bu dərsdə nə öyrənəcəksiniz</h3>
 
             <table border="1">
                 <thead>
                     <tr>
-                        <th>Course</th>
-                        <th>Number of Lessons</th>
+                        <th>Dərsin adı</th>
+                        <th>Dərs sayı</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -169,6 +82,37 @@
                     </tr>
                 </tbody>
             </table>
+
+            <fieldset>
+                <legend><h3>Login</h3></legend>
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Enter your name"
+                        required
+                    />
+                    <br />
+                    <br />
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required
+                    />
+                    <br />
+                    <br />
+
+                    <button type="submit">Login</button>
+                    <br />
+                </form>
+            </fieldset>
+
+            <br />
         </main>
 
         <footer>
