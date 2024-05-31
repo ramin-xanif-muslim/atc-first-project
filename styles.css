@@ -7,6 +7,12 @@ body {
     background-color:#D3D3D3;
 }
 
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #696969;
+}
+
 .gallery {
     display: inline-block;
     width: 100%;
