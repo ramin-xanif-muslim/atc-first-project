@@ -1,11 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    background-color:#D3D3D3;
-}
 nav {
     padding: 20px;
     background-color: #778899;
@@ -22,7 +20,7 @@ h1 {
     color: #696969;
 }
 
-.gallery {
+.inline-block {
     display: inline-block;
     width: 100%;
 }
@@ -33,6 +31,15 @@ h1 {
     padding: 10px;
     border: 1px solid #C0C0C0;
     background-color:  #DCDCDC;
+}
+
+.img-container:hover {
+    background-color: #C0C0C0;
+}
+
+.img-container:active {
+    /* border: 2px solid #778899; */
+    background-color: #778899;
 }
 
 img {
