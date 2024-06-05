@@ -54,7 +54,7 @@ body {
     line-height: 30px;
 }
 .link a {
-	text-decoration: none; 
+	/* text-decoration: none;  */
 }
 .btn button {
     margin-top: 48px;
